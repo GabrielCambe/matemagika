@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Esse conjunto de funções serve para controlar o fluxo de dados, como leitura dos dados e qual função executar, etc
+
+//NOTAÇÃO:
+//vou definir notações que serão a maneira padrão de se conversar com esse programa.
+
+//VETORES:
+/*
+*/
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void init(){
+  //VETOR_t** vetores_ALOCADOS = NULL; 
+  extern VETOR_t* v; v = NULL;
+}
+
+void menu(){
+
+}
+
+void fin_magik(){
+  free(v);
+}
